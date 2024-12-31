@@ -31,3 +31,12 @@ function Unknown_args(...) -- we use "..." to give unknown number of arguments
 end
 
 Unknown_args("Raiden", " Liu", "Cetrion", "Katana", 2025) -- we can pass different arguments
+
+function Gods()
+  return "Raiden", "Cetrion", 2025, "liu" -- we can also return more than one elements from the func
+end
+
+local g1, g2, _, g4 = Gods()
+print(g1)
+print(g2)
+print(g4)
